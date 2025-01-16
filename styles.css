@@ -19,9 +19,9 @@ header .container {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 300px; /* Increase width to double the current size */
+    height: 300px; /* Increase height proportionally */
+    border-radius: 50%; /* Keeps the circular shape */
     margin-top: 1rem;
 }
 
