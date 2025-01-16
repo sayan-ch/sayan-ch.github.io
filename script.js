@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </li>
     </ul>
             </section>
-        `,
+        // `,
         // experience: `
         //     <section class="tab-content">
         //         <h2>Experience</h2>
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //             <p>Email: <a href="mailto:sayanc2012@gmail.com">sayanc2012@gmail.com</a></p>
     //         </section>
     //     `
-    // };
+    };
 
     // Add click event listeners to tabs
     tabs.forEach(tab => {
