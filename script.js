@@ -30,12 +30,38 @@ document.addEventListener("DOMContentLoaded", () => {
             <section class="tab-content">
                 <h2>Research</h2>
                 <h3>Interests</h3>
-                <p>Network analysis, scalable algorithms for large networks, machine learning, statistical computation.</p>
+                <p>Network analysis, bootstrapping, subsampling, conformal prediction, and uncertainty quantification.</p>
                 <h3>Publications</h3>
                 <ul>
-                    <li>Chakrabarty, S., Sengupta, S., Chen, Y. (2024). Subsampling Based Community Detection for Large Networks. <a href="https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2022-0108_na.pdf">Statistica Sinica</a>.</li>
-                    <li>Chakrabarty, S., Mudar, R., Chen, Y., Husain, F. (2023). Contribution of Tinnitus and Hearing Loss to Depression. <a href="https://pubmed.ncbi.nlm.nih.gov/36828126/">Ear and Hearing</a>.</li>
-                </ul>
+        <li>
+            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2024). 
+            <i>Subsampling Based Community Detection for Large Networks</i>. 
+            In press at <em>Statistica Sinica</em>. 
+            <a href="https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2022-0108_na.pdf" target="_blank">Pre-print</a>.
+        </li>
+        <li>
+            <strong>Chakrabarty, S.</strong>, Mudar, R., Chen, Y., Husain, F. (2023). 
+            <i>Contribution of Tinnitus and Hearing Loss to Depression: NHANES Population Study</i>. 
+            In press at <em>Ear and Hearing</em>.
+        </li>
+        <li>
+            Han, M. D., Kwon, T. G., Miloro, M., <strong>Chakrabarty, S.</strong> (2023). 
+            <i>What Is the Linear Accuracy of Regional Voxel-Based Registration for Orthognathic Surgery Landmarks?</i> 
+            <em>Journal of Oral and Maxillofacial Surgery</em> (23) S0278-2391. 
+            <a href="https://pubmed.ncbi.nlm.nih.gov/36828126/" target="_blank">Article</a>.
+        </li>
+        <li>
+            Ghosh, A., SahaRay, R., <strong>Chakrabarty, S.</strong>, Bhadra, S. (2021). 
+            <i>Robust Generalised Quadratic Discriminant Analysis</i>. 
+            <em>Pattern Recognition</em> (117) 107981. 
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320321001680" target="_blank">Article</a>.
+        </li>
+        <li>
+            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2024+). 
+            <i>Computationally Efficient Network Cross-Validation and Model Selection via Subsampling</i>. 
+            In preparation.
+        </li>
+    </ul>
             </section>
         `,
         // experience: `
