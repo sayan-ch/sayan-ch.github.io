@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
             <section class="about-container">
                 <div class="about-text">
                     <h2>About Me</h2>
-                    <p>I am a PhD candidate in Statistics at the University of Illinois Urbana-Champaign, specializing in network analysis and scalable algorithms. My research spans statistical computation, machine learning, and nonparametric statistics.</p>
+                    <p>I am a Postdoctoral Research Fellow in Statistics at the University of Michigan, Ann Arbor. My research advisor is <a href="https://sites.google.com/umich.edu/elevina">link Dr. Liza Levina</a>. My research interests are in network analysis, bootstrapping, subsampling, conformal prediction, and uncertainty quantification. </p>
                 </div>
                 <div class="about-image">
-                    <img src="placeholder.jpg" alt="Your Photo" class="profile-pic">
+                    <img src="profile-pic.jpg" alt="Your Photo" class="profile-pic">
                 </div>
             </section>
         `,
@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <section class="tab-content">
                 <h2>Education</h2>
                 <ul>
-                    <li><strong>University of Illinois Urbana-Champaign</strong> (2018-Present) - PhD in Statistics</li>
-                    <li><strong>Indian Statistical Institute</strong> (2016-2018) - M.Stat in Statistics</li>
+                    <li><strong>University of Illinois Urbana-Champaign</strong> (2018-2024) - PhD in Statistics. Advisors: <a href="https://publish.illinois.edu/yuguo/">link Dr. Yuguo Chen</a> and <a href="https://sites.google.com/ncsu.edu/srijansengupta">link Dr. Srijan Sengupta</a> </li>
+                    <li><strong>Indian Statistical Institute</strong> (2016-2018) - M.Stat in Statistics. Thesis Advisor: <a href="https://www.isical.ac.in/~probal/">link Dr. Probal Chaudhuri</a> </li>
                     <li><strong>St. Xavier’s College</strong> (2013-2016) - B.Sc. in Statistics</li>
                 </ul>
             </section>
