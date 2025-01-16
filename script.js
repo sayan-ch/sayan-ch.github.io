@@ -34,15 +34,32 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h3>Publications</h3>
                 <ul>
         <li>
-            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2024). 
+            <strong>Chakrabarty, S.</strong>, Levina, E. (2025+). 
+            <i>Network Bootstrap with Overlapping Partitions</i>. 
+            In preparation.
+        </li>        
+        <li>
+            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2025+). 
+            <i>Computationally Efficient Network Cross-Validation and Model Selection via Subsampling</i>. 
+            Submitted.
+        </li>
+        <li>
+            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2025). 
             <i>Subsampling Based Community Detection for Large Networks</i>. 
-            In press at <em>Statistica Sinica</em>. 
+            In press at <em>Statistica Sinica</em>.
             <a href="https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2022-0108_na.pdf" target="_blank">Pre-print</a>.
         </li>
         <li>
-            <strong>Chakrabarty, S.</strong>, Mudar, R., Chen, Y., Husain, F. (2023). 
+            Moran, C.R., Park, T.J., Buffenstein, R., <strong>Chakrabarty</strong>, S., Lindeblad, M.O., Fortman, J.D., Adams, C.R. (2024). 
+            <i>Pharmacokinetics of Injectable Meloxicam and Buprenorphine in the Naked Mole-Rat (<em>Heterocephalus glaber</em>)</i>. 
+            <em>Journal of the American Association for Laboratory Animal Science</em>, 63(5), 565-571. 
+            <a href="https://pubmed.ncbi.nlm.nih.gov/39079747/" target="_blank">PubMed</a>.
+        </li>
+        <li>
+            <strong>Chakrabarty, S.</strong>, Mudar, R., Chen, Y., Husain, F. (2024). 
             <i>Contribution of Tinnitus and Hearing Loss to Depression: NHANES Population Study</i>. 
-            In press at <em>Ear and Hearing</em>.
+            <em>Ear and Hearing</em> 45(3):775-786.
+            <a href="https://journals.lww.com/ear-hearing/abstract/2024/05000/contribution_of_tinnitus_and_hearing_loss_to.22.aspx">Article</a>
         </li>
         <li>
             Han, M. D., Kwon, T. G., Miloro, M., <strong>Chakrabarty, S.</strong> (2023). 
@@ -55,11 +72,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <i>Robust Generalised Quadratic Discriminant Analysis</i>. 
             <em>Pattern Recognition</em> (117) 107981. 
             <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320321001680" target="_blank">Article</a>.
-        </li>
-        <li>
-            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2024+). 
-            <i>Computationally Efficient Network Cross-Validation and Model Selection via Subsampling</i>. 
-            In preparation.
         </li>
     </ul>
             </section>
