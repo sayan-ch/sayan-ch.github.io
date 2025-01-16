@@ -6,14 +6,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const sections = {
         about: `
             <section class="about-container">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I am a Postdoctoral Research Fellow in Statistics at the University of Michigan, Ann Arbor. My postdoc advisor is <a href="https://sites.google.com/umich.edu/elevina">Dr. Liza Levina</a>. I received PhD in Statistics from the University of Illinois Urbana-Champaign. My PhD advisors were <a href="https://publish.illinois.edu/yuguo/">Dr. Yuguo Chen</a> and <a href="https://sites.google.com/ncsu.edu/srijansengupta">Dr. Srijan Sengupta</a>.</p> 
+                <section class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am a Postdoctoral Research Fellow in Statistics at the University of Michigan, Ann Arbor. My postdoc advisor is <a href="https://sites.google.com/umich.edu/elevina">Dr. Liza Levina</a>. I received PhD in Statistics from the University of Illinois Urbana-Champaign. My PhD advisors were <a href="https://publish.illinois.edu/yuguo/">Dr. Yuguo Chen</a> and <a href="https://sites.google.com/ncsu.edu/srijansengupta">Dr. Srijan Sengupta</a>.</p> 
                 <p>My research interests are in network analysis, bootstrapping, subsampling, conformal prediction, and uncertainty quantification. To learn more about my research, please click <a href="#research">here</a>.</p>
-                </div>
-                <div class="about-image">
-                    <img src="profile-pic.jpg" alt="Your Photo" class="profile-pic">
-                </div>
+            </div>
+            <div class="about-image">
+                <img src="profile-pic.jpg" alt="Your Photo" class="profile-pic">
+            </div>
+        </section>
+      <div class="info-box">
+        <p>Email: sayanc ''at''  umich.edu</p>
+        <p>Google Scholar: <a href="https://scholar.google.com/citations?user=nLr_7kcAAAAJ&hl=en">Link</a></p>
+    </div>
             </section>
         `,
         // education: `
