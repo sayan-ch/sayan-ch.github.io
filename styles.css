@@ -54,7 +54,7 @@ main {
     padding: 20px;
 }
 
-section {
+.tab-content {
     margin-bottom: 20px;
     padding: 20px;
     background: #fff;
