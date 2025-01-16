@@ -16,11 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="profile-pic.jpg" alt="Your Photo" class="profile-pic">
             </div>
         </section>
-      <div class="info-box">
+        <section class="info-box">
+            <div class="info-box">
         <p>Email: sayanc ''at''  umich.edu</p>
         <p>Google Scholar: <a href="https://scholar.google.com/citations?user=nLr_7kcAAAAJ&hl=en">Link</a></p>
     </div>
-            </section>
+        </section>
+    </section>
         `,
         // education: `
         //     <section class="tab-content">
