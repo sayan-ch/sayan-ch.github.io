@@ -1,70 +1,109 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #f4f4f4;
+    color: #00274C; /* Blue for text */
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #FFCB05; /* Maize background */
+    color: #00274C; /* Blue text */
     padding: 1rem 0;
     text-align: center;
 }
 
-header .container {
-    max-width: 800px;
+.header-container {
+    max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 
-.profile-pic {
-    width: 300px; /* Increase width to double the current size */
-    height: 300px; /* Increase height proportionally */
-    border-radius: 50%; /* Keeps the circular shape */
-    margin-top: 1rem;
-}
-
-nav ul {
-    background: #444;
-    color: #fff;
-    padding: 0;
+.name {
+    font-size: 2.5rem;
     margin: 0;
-    list-style: none;
+}
+
+.affiliation {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Navigation Bar */
+nav {
+    background: #00274C; /* Blue background */
+}
+
+.nav-bar {
     display: flex;
     justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li {
+.nav-bar li {
     margin: 0 15px;
 }
 
-nav ul li a {
+.nav-bar li a {
     text-decoration: none;
-    color: #fff;
+    color: #FFCB05; /* Maize for links */
     padding: 10px 15px;
     display: block;
 }
 
-nav ul li a:hover {
-    background: #555;
+.nav-bar li a:hover {
+    background: #FFCB05;
+    color: #00274C; /* Invert colors on hover */
+    border-radius: 5px;
 }
 
-main {
+/* Landing Page Layout */
+.landing-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
     padding: 20px;
 }
 
-.tab-content {
-    margin-bottom: 20px;
-    padding: 20px;
+.about-container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 2; /* Left 2/3 */
     background: #fff;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.about-image {
+    flex: 1; /* Right 1/3 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px; /* Rectangle with slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
-    color: #fff;
+    background: #00274C;
+    color: #FFCB05;
 }
