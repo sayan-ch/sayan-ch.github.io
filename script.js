@@ -48,14 +48,15 @@ document.addEventListener("DOMContentLoaded", () => {
             In preparation.
         </li>        
         <li>
-            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2025+). 
-            <i>Computationally Efficient Network Cross-Validation and Model Selection via Subsampling</i>. 
-            Submitted.
+            <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2025). 
+            <i>Network Cross-Validation and Model Selection via Subsampling</i>. 
+            ArXiv preprint, arXiv:2504.06903.
+            <a href="https://arxiv.org/abs/2504.06903" target="_blank">Pre-print<\a>
         </li>
         <li>
             <strong>Chakrabarty, S.</strong>, Sengupta, S., Chen, Y. (2025). 
             <i>Subsampling Based Community Detection for Large Networks</i>. 
-            In press at <em>Statistica Sinica</em>.
+            <em>Statistica Sinica</em>, 35(3).
             <a href="https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2022-0108_na.pdf" target="_blank">Pre-print</a>.
         </li>
         <li>
