@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
             Moran, C.R., Park, T.J., Buffenstein, R., <strong>Chakrabarty</strong>, S., Lindeblad, M.O., Fortman, J.D., Adams, C.R. (2024). 
             <i>Pharmacokinetics of Injectable Meloxicam and Buprenorphine in the Naked Mole-Rat (<em>Heterocephalus glaber</em>)</i>. 
             <em>Journal of the American Association for Laboratory Animal Science</em>, 63(5), 565-571. 
-            <a href="https://pubmed.ncbi.nlm.nih.gov/39079747/" target="_blank">PubMed</a>.
+            <a href="https://pubmed.ncbi.nlm.nih.gov/39079747/" target="_blank">Article</a>.
         </li>
         <li>
             <strong>Chakrabarty, S.</strong>, Mudar, R., Chen, Y., Husain, F. (2024). 
