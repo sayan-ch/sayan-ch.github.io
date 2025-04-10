@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="about-text">
                 <h2>About Me</h2>
                 <p>I am a Postdoctoral Research Fellow in Statistics at the University of Michigan, Ann Arbor. My postdoc advisor is <a href="https://sites.google.com/umich.edu/elevina">Dr. Liza Levina</a>. I received PhD in Statistics from the University of Illinois Urbana-Champaign. My PhD advisors were <a href="https://publish.illinois.edu/yuguo/">Dr. Yuguo Chen</a> and <a href="https://sites.google.com/ncsu.edu/srijansengupta">Dr. Srijan Sengupta</a>.</p> 
-                <p>My research interests are in network analysis, bootstrapping, subsampling, conformal prediction, and uncertainty quantification. To learn more about my research, please click <a href="#research">here</a>.</p>
+                <p>My research interests are in developing subsampling and resampling based methods for network data, network regression, data fission and computationally efficient methods for large data. To learn more about my research, please click <a href="#research">here</a>.</p>
                 <section class="info-box">
             <div class="info-box">
         <p>Email: sayanc ''at''  umich.edu</p>
