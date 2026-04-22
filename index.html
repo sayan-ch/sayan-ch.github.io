@@ -1,49 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayan Chakrabarty</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sayan Chakrabarty</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="assets/js/theme-toggle.js" defer></script>
+  <script src="assets/js/mobile-nav.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <h1 class="name">Sayan Chakrabarty</h1>
-            <p class="affiliation">Postdoctoral Research Fellow in Statistics, University of Michigan, Ann Arbor</p>
-        </div>
-    </header>
-    <nav>
-        <ul class="nav-bar">
-            <li><a href="#" data-tab="about">About Me</a></li>
-<!--             <li><a href="#" data-tab="education">Education</a></li> -->
-            <li><a href="#" data-tab="research">Research</a></li>
-<!--             <li><a href="#" data-tab="experience">Experience</a></li>
-            <li><a href="#" data-tab="contact">Contact</a></li> -->
-        </ul>
-    </nav>
-    <main class="landing-page">
-        <section class="about-container">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>I am a Postdoctoral Research Fellow in Statistics at the University of Michigan, Ann Arbor. My postdoc advisors are <a href="https://sites.google.com/umich.edu/elevina">Dr. Elizaveta Levina</a> and <a href="https://dept.stat.lsa.umich.edu/~jizhu/">Dr. Ji Zhu</a>. I received PhD in Statistics from the University of Illinois Urbana-Champaign. My PhD advisors were <a href="https://publish.illinois.edu/yuguo/">Dr. Yuguo Chen</a> and <a href="https://sites.google.com/ncsu.edu/srijansengupta">Dr. Srijan Sengupta</a>.</p> 
-                <p>My research interests are in network analysis, bootstrapping, subsampling, conformal prediction, and uncertainty quantification. To learn more about my research, please click <a href="#research">here</a>.</p>
-                <section class="info-box">
-            <div class="info-box">
-        <p>Email: sayanc ''at''  umich.edu</p>
-        <p>Google Scholar: <a href="https://scholar.google.com/citations?user=nLr_7kcAAAAJ&hl=en">Link</a></p>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <a class="navbar-brand" href="index.html">Sayan Chakrabarty</a>
+    <ul class="navbar-nav">
+      <li><a href="index.html" class="active">About</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="talks.html">Talks</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="cv.html">CV</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" title="Menu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+      <button class="theme-toggle" type="button" aria-label="Toggle color mode" title="Toggle color mode">
+        <i class="fas fa-moon" aria-hidden="true"></i>
+      </button>
     </div>
-        </section>
-            </div>
-            <div class="about-image">
-                <img src="profile-pic.jpg" alt="Your Photo" class="profile-pic">
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Sayan Chakrabarty</p>
-    </footer>
+  </nav>
+
+  <!-- ===== Main Content ===== -->
+  <main class="page-content">
+    <div class="about-grid">
+
+      <!-- Left: Profile Column -->
+      <div class="profile-column">
+        <img src="profile-pic.jpg" alt="Sayan Chakrabarty" />
+        <h2>Sayan Chakrabarty</h2>
+        <p class="affiliation">Postdoctoral Research Fellow<br>Department of Statistics<br>University of Michigan</p>
+
+        <div class="social-links">
+          <a href="mailto:sayanc@umich.edu">
+            <span class="icon"><i class="fas fa-envelope"></i></span>
+            sayanc@umich.edu
+          </a>
+          <a href="https://scholar.google.com/citations?user=nLr_7kcAAAAJ&hl=en" target="_blank">
+            <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+            Google Scholar
+          </a>
+          <a href="https://github.com/sayan-ch" target="_blank">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            GitHub
+          </a>
+           <a href="https://www.linkedin.com/in/sayanchakra/" target="_blank">
+            <span class="icon"><i class="fab fa-linkedin"></i></span>
+            LinkedIn
+          </a>
+          <a href="https://orcid.org/0000-0003-2372-2076" target="_blank">
+            <span class="icon"><i class="fas fa-id-badge"></i></span>
+            ORCID
+          <a href="cv.html">
+            <span class="icon"><i class="fas fa-file-alt"></i></span>
+            Curriculum Vitae
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Bio Column -->
+      <div class="bio-column">
+        <h1>About Me</h1>
+
+        <p>
+          Hi! My name is Sayan. I am a Postdoctoral Research Fellow in Statistics at the University of Michigan.
+          My postdoc advisors are
+          <a href="https://sites.google.com/umich.edu/elevina" target="_blank">Liza Levina</a> and
+          <a href="https://dept.stat.lsa.umich.edu/~jizhu/" target="_blank">Ji Zhu</a>.
+          <!-- I am also collaborating with
+          <a href="#">Prof. Snigdha Panigrahi</a>,
+          <a href="#">Prof. Shelly Flagel</a>, and
+          <a href="#">Prof. Akbar Awaljee</a>. -->
+          I received a PhD in Statistics from the University of Illinois Urbana-Champaign in 2024, advised by
+          <a href="https://publish.illinois.edu/yuguo/" target="_blank">Yuguo Chen</a> and
+          <a href="https://sites.google.com/ncsu.edu/srijansengupta" target="_blank">Srijan Sengupta</a>.
+        </p>
+
+        <p>
+          My research interests lie in <strong>network analysis</strong>, <strong>subsampling and bootstrapping
+          for complex data</strong> and
+          <strong>uncertainty quantification</strong>. More broadly, I am interested in scalable statistical
+          inference for complex data structures, and principled applications of machine learning tools in
+          biological sciences and medicine.
+        </p>
+
+        <!-- <div class="intro-highlight">
+          <strong>Research Interests:</strong> Scalable inference for large networks, network bootstrap and
+          cross-validation, interpretability for network-assisted machine learning models, statistical methods
+          using randomization mechanisms, and applications of ML/AI in biomedical sciences.
+        </div> -->
+
+        <div>
+          <span class="tag-pill">Statistical network analysis</span>
+          <span class="tag-pill">Subsampling and resampling</span>
+          <span class="tag-pill">Nonparametric inference</span>
+          <span class="tag-pill">Uncertainty quantification</span>
+          <span class="tag-pill">Biomedical applications of ML</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== News Section ===== -->
+    <!-- <div class="news-section">
+      <h2 class="section-title">News</h2>
+      <table class="news-table">
+        <tr>
+          <td>Mar 2026</td>
+          <td>Gave a lightning talk at <em>Recent Advances in Random Networks</em> (Chicago, USA) and presented a poster on Network Cross-Validation and Model Selection via Subsampling. Received a Travel Award from IMSI.</td>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Paper <a href="publications.html"><em>Network Cross-Validation and Model Selection via Subsampling</em></a> is under revision at <em>JRSS-B</em>. Preprint available on arXiv (2504.06903).</td>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Gave invited and contributed talks at multiple conferences including ICSDS (Seville), ICMS (London), JSM (Nashville), and IISA (Lincoln). Received two travel awards from IMS and IISA.</td>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Paper <a href="publications.html"><em>Subsampling Based Community Detection for Large Networks</em></a> published in <em>Statistica Sinica</em> (35) 1627–1648.</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Started as Postdoctoral Research Fellow at the University of Michigan, working with Profs. Elizaveta Levina and Ji Zhu.</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Received PhD in Statistics from the University of Illinois Urbana-Champaign.</td>
+        </tr>
+      </table>
+    </div> -->
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2026 Sayan Chakrabarty &mdash; Made with template from
+      <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
+    </p>
+  </footer>
+
 </body>
 </html>
