@@ -497,6 +497,10 @@ body {
   background: #6c757d;
 }
 
+.pub-year-badge.submitted {
+  background: #6f42c1;
+}
+
 .pub-content .pub-title {
   font-size: 0.97rem;
   font-weight: 600;
